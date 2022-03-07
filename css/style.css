@@ -196,7 +196,7 @@ body {
     font-family: 'Open Sans', Arial, sans-serif;
     font-size: 13px;
     line-height: 22px;
-    color: #777;
+    color: rgb(120, 16, 146);
     background-color: #fff;
 }
 
@@ -510,6 +510,9 @@ a.download-link span i{
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
     background-color: transparent;
 }
+.navbar-portal .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus{
+    background-color: #510b63;
+}
 
 .main-nav .row{
     margin-bottom: 0;
@@ -543,6 +546,10 @@ a.download-link span i{
     border: none;
     background: none;
 }
+.navbar-portal{
+    border: none;
+    background: #510b63;
+}
 
 #dl-menu{
     display: none;
@@ -565,6 +572,10 @@ a.download-link span i{
     color: #333;    
     border-bottom: 3px solid transparent;
 }
+.navbar-portal .navbar-nav>li>a{
+    color: #ffffff;    
+    border-bottom: 3px solid transparent;
+}
 
 .nav>li>a{
     padding-left: 25px;
@@ -572,6 +583,10 @@ a.download-link span i{
 }
 
 .header-style01 .navbar-default .navbar-nav>li>a:hover{
+    border-bottom: 3px solid;
+}
+.header-style01 .navbar-portal .navbar-nav>li>a:hover{
+    color: #03253c;
     border-bottom: 3px solid;
 }
 
@@ -987,7 +1002,7 @@ a.download-link span i{
 }
 
 .page-title-style01 h1{
-    color: rgb(241, 201, 19);
+    color: rgb(153, 34, 153);
     text-align: center;
 }
 
@@ -1185,6 +1200,9 @@ a.download-link span i{
 
 .custom-bkg.bkg-dark-blue{
     background-color: #2c3741;
+}
+.custom-bkg.bkg-dark-morado{
+    background-color: #5c0f63;
 }
 
 .custom-bkg.bkg-dark-blue.transparent01{

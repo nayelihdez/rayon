@@ -368,13 +368,13 @@ All this is done for any sub-level being entered.
 }
 
 .dl-menuwrapper button {
-    background: #444;
+    background: rgb(116, 10, 107);
 }
 
 .dl-menuwrapper button:hover,
 .dl-menuwrapper button.dl-active,
 .dl-menuwrapper ul {
-    background: rgb(248, 210, 85);
+    background: rgb(116, 10, 107);
 }
 
 @media only screen and (min-width: 320px) and (max-width: 479px){
